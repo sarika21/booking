@@ -27,7 +27,7 @@ spec:
       containers:
         - env:
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:postgresql://PostgreSQL:5432/postgres
+              value: jdbc:postgresql://postgresql:5432/postgres
           image: sarika21/booking
           name: booking
           ports:
