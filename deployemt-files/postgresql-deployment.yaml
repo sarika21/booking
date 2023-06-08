@@ -39,7 +39,7 @@ spec:
             failureThreshold: 5
             periodSeconds: 10
             timeoutSeconds: 5
-          name: PostgreSQL
+          name: postgresql
           ports:
             - containerPort: 5432
           resources: {}
